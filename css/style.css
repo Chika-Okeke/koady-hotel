@@ -1,0 +1,287 @@
+/* CSS reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 50000px;
+}
+/* Utility classes */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0px 12px;
+}
+.prmy-padding {
+    padding: 20px;
+}
+.pmry-text {
+    color: #421440;
+}
+.primary-color {
+    background-color: #662d63;
+    width: 100%;
+}
+ .color-bg {
+    background: #da96c2;
+}
+.lead {
+    font-size: 20px;
+}
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: plum;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.btn-light {
+    background: #61304f;
+    color: antiquewhite;
+}
+.bg-dark {
+    background: rgb(187, 172, 187);
+    color: white;
+}
+
+.bg-light {
+    background: plum;
+    color: white;
+}
+.btn:hover {
+    background: #61304f;
+    color: rgb(149, 45, 149);
+}
+.text-primary {
+    color: gold;
+}
+.clr {
+    clear: both;
+}
+.l-heading {
+    font-size: 40px;
+}
+.tan-bg {
+    background: rgb(241, 222, 242);
+    
+}
+/* Main styling */
+body,html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7cm; 
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+p {
+    margin: 10px 0;
+}
+/* Navbar */
+#navbar {
+    position: sticky;
+    top: 0;
+    background: #421440;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 10px;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px ;
+    text-align: center;
+}
+#navbar ul li a:hover,
+ #navbar ul li a.current  {
+background-color: rgb(113, 65, 106);
+color: plum;
+}
+/* stlyes for showcase */
+#showcase {
+    background: url(./hotel3.png) no-repeat center center/cover;
+    height: 600px;
+}
+#showcase .showcase-content {
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.7Cm;
+}
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1cm;
+}
+/* Home info */
+#home-info {
+    height: 450px;
+}
+#home-info .info-img  {
+    float: left;
+    width: 50%;
+    background: url('/images/Hotel4.jpeg') no-repeat center center/cover;
+    min-height: 100%;
+}
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    line-height: 1cm;
+}
+.box {
+ float: left;    
+ width: 33.3%;
+ height: 500px;
+ padding: 50px;
+ text-align: center ;
+ line-height: 1cm ;
+
+}
+/* About info */
+ #about-info {
+    background-color: whitesmoke;
+    line-height: 1cm;
+    text-align: justify;
+ }
+ #about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+ }
+
+ #about-info .info-right2 img {
+    float: right;
+    display: block;
+    margin-top: -400px;
+    width: 50%;
+    height: 350px;
+    padding-left: 40px; 
+    border-radius: 50%;
+ }
+
+#about-info .info-left {
+   float: left;
+   width: 50%;
+   min-height: 100%;
+}
+ #about-info .info-right img {
+    display: block;
+    margin-top: -800px;
+    width: 96%;
+    height: 350px;
+    padding-left: 40px; 
+    border-radius: 50%;
+ }
+ 
+ #testimonals .testimonal {
+    height: 600px;
+    background: url('../hotel10opacity.png') no-repeat center center/cover;
+   padding: 40px 90px 0 0;
+  
+ }
+
+ #testimonals {
+    line-height: 1.2cm;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-left: -100px;
+    box-sizing: border-box;
+    background: fixed #421440;
+   
+ }
+ #testimonals .testimonal {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40PX;
+ }
+ #testimonals .testimonal img {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+ }
+
+    /* contact form */
+
+    #contact-form .form-group {
+        margin-bottom: 20px;
+        padding: 0;   
+    }
+    #contact-form {
+        background: whitesmoke;
+    }
+
+    #contact-form .form-label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px purple solid;
+
+    }
+    #contact-form input:focus,
+    #contact-form textarea:focus {
+        outline: auto plum;
+    }
+    .box img{
+        width: 90px;
+        height: 80px;
+    }
+    /* reservation form */
+    
+#reservation-form {
+  background-color: white;  
+  font-size: 16px;
+  margin-left: 15%;
+  padding: 50px;
+  width: 60%;
+  height:100%;
+  text-align: center;
+  border: #662d63;
+}
+.form-wrap {
+    background: url(../hotel10opacity.png);
+}
+
+#reservation-form input:focus{
+    outline: #da96c2;
+    
+
+}
+#main-footer {
+    text-align: center;
+    background-color: #61304f;
+    color: #fff;
+    padding: 20px;
+    display: block;
+}    
